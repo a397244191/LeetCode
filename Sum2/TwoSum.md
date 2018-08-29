@@ -13,7 +13,7 @@
   - ans(vector< int>)
     - 兩個數字，是加起來等於target的數字在nums的index
 
-想法是，最簡單的二次迴圈掃過去找到加起來等於target的回傳。可是做過競賽的看到$O(N^2)$表示不行 ~~(莫名其妙的任性和堅持)~~，就想到最簡單的binary search啦，還可以順便練習自己不熟的STL，感受到一舉兩得的方式壓到$O(NlogN)$。
+想法是，最簡單的二次迴圈掃過去找到加起來等於target的回傳。可是做過競賽的看到<a href="https://www.codecogs.com/eqnedit.php?latex=O(N^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(N^2)" title="O(N^2)" /></a>表示不行 ~~(莫名其妙的任性和堅持)~~，就想到最簡單的binary search啦，還可以順便練習自己不熟的STL，感受到一舉兩得的方式壓到<a href="https://www.codecogs.com/eqnedit.php?latex=O(NlogN)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(NlogN)" title="O(NlogN)" /></a>。
 
 ## 開始
 啊，一進去看到的是class Solution，瞬間就發現跟競賽不一樣，不是一個完整的code？想了想應該適用裡面的function完成就好吧，可是因為STL不熟，另外開啟IDE來測試執行(後來才發現下面有Run code可以用)。
@@ -37,7 +37,7 @@
 ### 同一個數！？
 發現這錯後，才知道"You may assume that each input would have exactly one solution, and you may not use the same element twice." 裡面的" you may not use the same element twice."不是說我可以相信數字都不一樣，而是說，你不能用同樣的element組合。
 ## 結束了?
-改完兩個bug後，Ac終於現身了。我發現有個解答可以看，點進去看了一下，第一個答案，標準雙層迴圈，很好，可以。第二個震驚了我，竟然不是$O(NlogN)$直接跳到$O(N)$！？才發現有更簡單的hash解法啊！看來我修行還不夠，只能想到最基本的想法。
+改完兩個bug後，Ac終於現身了。我發現有個解答可以看，點進去看了一下，第一個答案，標準雙層迴圈，很好，可以。第二個震驚了我，竟然不是<a href="https://www.codecogs.com/eqnedit.php?latex=O(NlogN)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(NlogN)" title="O(NlogN)" /></a>直接跳到<a href="https://www.codecogs.com/eqnedit.php?latex=O(N)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(N)" title="O(N)" /></a>！？才發現有更簡單的hash解法啊！看來我修行還不夠，只能想到最基本的想法。
 ## 假解?
 ### 想法
 我寫完後想了一下，發現我寫的不夠好，因為如果裡面能組成target的數字是相同的，但我只有一個這數字呢?因為答案是另一個解。
