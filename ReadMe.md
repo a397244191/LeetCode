@@ -13,3 +13,8 @@ Search in Rotated Sort Array - C++ - 2018/8/26
 Reverse Integer - C++ - 2018/8/27
 
 Surface Area of 3D Shape - C++ - 2018/8/28
+
+## 修改
+狀況-方法-日期
+
+數學符號引用沒顯示 - 改成html碼 - 2018/8/29
