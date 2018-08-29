@@ -9,12 +9,12 @@
   - target(int)
     - 要尋找的數字
 - process
-  - 在$O(logN)$時間裡找到target在nums的位置
+  - 在<a href="https://www.codecogs.com/eqnedit.php?latex=O(logN)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(logN)" title="O(logN)" /></a>時間裡找到target在nums的位置
 - output
   - output(int)
     - target在nums的位置，不存在為-1
 
-$O(logN)$是對排序好的陣列可以做到最快的搜尋方法，但這被轉過的陣列呢?總之做法應該也像binary search一樣吧。
+<a href="https://www.codecogs.com/eqnedit.php?latex=O(logN)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(logN)" title="O(logN)" /></a>是對排序好的陣列可以做到最快的搜尋方法，但這被轉過的陣列呢?總之做法應該也像binary search一樣吧。
 
 ## 開始
 
@@ -46,7 +46,7 @@ $O(logN)$是對排序好的陣列可以做到最快的搜尋方法，但這被�
 
 ### TLE
 
-超出時間?因為這做法就是$O(logN)$，所以狀況只有沒結束這點上。找了問題，啊!一定是我沒判left = right - 1這時候，因為這樣mid 會一直是left。新增條件後，還是TLE?!
+超出時間?因為這做法就是<a href="https://www.codecogs.com/eqnedit.php?latex=O(logN)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(logN)" title="O(logN)" /></a>，所以狀況只有沒結束這點上。找了問題，啊!一定是我沒判left = right - 1這時候，因為這樣mid 會一直是left。新增條件後，還是TLE?!
 
 #### 只是沒有完成
 
