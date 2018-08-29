@@ -9,3 +9,7 @@ Two Sum - C++ - 2018/8/24
 Integer to Roman - C++ - 2018/8/25
 
 Search in Rotated Sort Array - C++ - 2018/8/26
+
+Reverse Integer - C++ - 2018/8/27
+
+Surface Area of 3D Shape - C++ - 2018/8/28
