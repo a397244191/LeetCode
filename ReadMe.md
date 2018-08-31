@@ -14,6 +14,8 @@ Reverse Integer - C++ - 2018/8/27
 
 Surface Area of 3D Shape - C++ - 2018/8/28
 
+Remove Nth Node from the end of List - C++ - 2018/8/29
+
 ## 修改
 狀況-方法-日期
 
