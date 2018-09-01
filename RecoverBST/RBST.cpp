@@ -11,33 +11,27 @@ class Solution {
 public:
     void recoverTree(TreeNode* root) {
         TreeNode* nul = NULL;
-        stack<pair<TreeNode*,pair<TreeNode*,TreeNode*>>> s;
-        s.push(make_pair(root,make_pair(nul,nul)));
-        pair<TreeNode*,pair<TreeNode*,TreeNode*>> use;
+        stack<pair<TreeNode*,bool>> s;
+        s.push(make_pair(root,false));
+        pair<TreeNode*,bool> use;
         TreeNode *swap1 = NULL,*swap2 = NULL;
+        TreeNode* last = NULL;
         while(!s.empty()){
             use = s.top();
             s.pop();
-            if(use.second.first != NULL && use.second.first->val > use.first->val){
-                if(swap1 == NULL) {
-                swap1 = use.second.first;
+            if(use.first == NULL) continue;
+            if(!use.second){
+                s.push(make_pair(use.first->right,false));
+                s.push(make_pair(use.first,true));
+                s.push(make_pair(use.first->left,false));
+                continue;
+            }
+            if(last != NULL && last->val > use.first->val) {
+                if(swap1 ==NULL)swap1 = last;
                 swap2 = use.first;
-                } else {
-                    swap1 = use.first;
-                }
-                continue;
-            } 
-            if(use.second.second != NULL && use.second.second->val < use.first->val){
-                if(swap1 == NULL){
-                    swap1 = use.second.second;
-                    swap2 = use.first;
-                } else {
-                    swap1 = use.first;
-                }
-                continue;
-            } 
-            if(use.first->right != NULL) s.push(make_pair(use.first->right,make_pair(use.first,use.second.second)));
-            if(use.first->left != NULL) s.push(make_pair(use.first->left,make_pair(use.second.first,use.first)));
+            }            
+            last = use.first;
+            
         }
         swap(swap1->val,swap2->val);
     }
