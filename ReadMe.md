@@ -4,19 +4,21 @@
 ## 題目
 題目-語言-時間
 
-Two Sum - C++ - 2018/8/24
+Two Sum - C++ - 2018/08/24
 
-Integer to Roman - C++ - 2018/8/25
+Integer to Roman - C++ - 2018/08/25
 
-Search in Rotated Sort Array - C++ - 2018/8/26
+Search in Rotated Sort Array - C++ - 2018/08/26
 
-Reverse Integer - C++ - 2018/8/27
+Reverse Integer - C++ - 2018/08/27
 
-Surface Area of 3D Shape - C++ - 2018/8/28
+Surface Area of 3D Shape - C++ - 2018/08/28
 
-Remove Nth Node from the end of List - C++ - 2018/8/29
+Remove Nth Node from the end of List - C++ - 2018/08/29
 
-Recover Binary Search Tree - C++ - 2018/8/31~2018/9/01
+Recover Binary Search Tree - C++ - 2018/8/31~2018/09/01
+
+Palindrome Number - C++ - 2018/09/1
 
 ## 未完成
 題目-語言-開始日期-狀態
@@ -24,4 +26,4 @@ Recover Binary Search Tree - C++ - 2018/8/31~2018/9/01
 ## 修改
 狀況-方法-日期
 
-數學符號引用沒顯示 - 改成html碼 - 2018/8/29
+數學符號引用沒顯示 - 改成html碼 - 2018/08/29
