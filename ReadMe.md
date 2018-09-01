@@ -16,10 +16,10 @@ Surface Area of 3D Shape - C++ - 2018/8/28
 
 Remove Nth Node from the end of List - C++ - 2018/8/29
 
+Recover Binary Search Tree - C++ - 2018/8/31~2018/9/01
+
 ## 未完成
 題目-語言-開始日期-狀態
-
-Recover Binary Search Tree - C++ - 2018/8/31 - 明日再想，沒想法就先不要做。
 
 ## 修改
 狀況-方法-日期
