@@ -18,7 +18,9 @@ Remove Nth Node from the end of List - C++ - 2018/08/29
 
 Recover Binary Search Tree - C++ - 2018/8/31~2018/09/01
 
-Palindrome Number - C++ - 2018/09/1
+Palindrome Number - C++ - 2018/09/01
+
+Valid Number - C++ - 2018/09/02
 
 ## 未完成
 題目-語言-開始日期-狀態
