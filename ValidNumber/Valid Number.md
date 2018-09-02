@@ -95,8 +95,7 @@ public:
 };
 
 // non-(const integral) static member variables must be initialized out-of-line.
-std::regex const Solution::number_pattern\
-{R"(^\s*[-+]?(?:\d+|\d+\.\d*|\d*\.\d+)(?:e[+-]?\d+)?\s*$)"};
+std::regex const Solution::number_pattern{R"(^\s*[-+]?(?:\d+|\d+\.\d*|\d*\.\d+)(?:e[+-]?\d+)?\s*$)"};
 ```
 說實在，我也蠻佩服用這方法的人。我之前學過compiler也看過這類型的東西，將這兩者聯結我覺得很厲害。
 
