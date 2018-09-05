@@ -26,6 +26,8 @@ Longest Valid Parentheses - C++ - 2018/09/03
 
 Kth Largest Element in a Stream - C++ - 2018/09/04
 
+P
+
 ## 未完成
 題目-語言-開始日期-狀態
 
