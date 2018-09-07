@@ -30,6 +30,8 @@ Pascal's Triangle II - C++ - 2018/09/05
 
 Binary Tree Inorder Traversal - C++ - 2018/09/06
 
+Palindrome Pairs - C++ - 2018/09/07
+
 ## 未完成
 題目-語言-開始日期-狀態
 
