@@ -100,19 +100,23 @@ public:
 
 ### 刪去多餘
 舉個簡單例子，0:"abc",1:"cba"，他們本身因為互為反向，所以可以兩邊接，沒寫好條件會出現。
+
 | left | right | result |
 | ------ | ----- | ----------------- |
 | abc | null | abccba |
 | null | abc | cbaabc |
 | cba | null | cbaabc |
 | null | cba | abccba |
+
 這樣`[0,1],[1,0]`的狀況會出現兩次，所以我們要排除其中一種，就是對於一邊空字串排除一個，而code裡面排除的是left是空的情況就會變成。
+
 | left | right | result |
 | ------ | ----- | ----------------- |
 | abc | null | abccba |
 | null | abc | false |
 | cba | null | cbaabc |
 | null | cba | false |
+
 這樣剛好能刪去一半多餘的答案。
 
 至於結果因為有參考過，即使吃了飯才開始寫也沒太大問題，而且細節在參考時就被發現了。
