@@ -32,6 +32,8 @@ Binary Tree Inorder Traversal - C++ - 2018/09/06
 
 Palindrome Pairs - C++ - 2018/09/07
 
+Maximum Frequency Stack - C++ - 2018/09/08
+
 ## 未完成
 題目-語言-開始日期-狀態
 
