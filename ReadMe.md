@@ -38,6 +38,8 @@ Maximum Frequency Stack - C++ - 2018/09/08
 
 Design Circular Queue - C++ - 2018/09/10
 
+Basic Calculator - C++ - 2018/09/11
+
 ## 未完成
 題目-語言-開始日期-狀態
 
