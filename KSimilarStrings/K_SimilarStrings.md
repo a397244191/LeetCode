@@ -43,7 +43,7 @@ while(!q.empty()){
     }
 }
 ```
-這樣看起來很棒，每次queue只會丟入最多20個(字串長)。但其實不然，因為第二層就給你<a href="https://www.codecogs.com/eqnedit.php?latex=18^{19}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?18^{19}" title="18^{19}" /></a>這種爆炸的指數展開。所以加入一些看起來有裁支的做法。然後發現這樣寫其實不用j = 0~n，用i~n也可以就變成了。
+這樣看起來很棒，每次queue只會丟入最多20個(字串長)。但其實不然，因為第二層就給你<a href="https://www.codecogs.com/eqnedit.php?latex=18^{19}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?18^{19}" title="18^{19}" /></a>這種爆炸的指數展開。所以加入一些看起來有裁支的做法。然後發現這樣寫其實不用j = 0 ~ n，用i ~ n也可以就變成了。
 ```C++ =
 while(!q.empty()){
     bool visit[20] = {false}
