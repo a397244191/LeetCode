@@ -44,6 +44,8 @@ Unique Letter String - C++ - 2018/09/12
 
 K-Similar Strings - C++ - 2018/09/13
 
+Set Intersection Size At Least Two - C++ - 2018/09/14
+
 ## 未完成
 題目-語言-開始日期-狀態
 
