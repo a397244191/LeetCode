@@ -48,6 +48,10 @@ Set Intersection Size At Least Two - C++ - 2018/09/14
 
 Decode Way - C++ - 2018/09/15
 
+Combine Two Tables - MySQL - 2018/09/16
+
+Nth Highest Salary - MySQL - 2018/09/16
+
 ## 未完成
 題目-語言-開始日期-狀態
 
@@ -55,3 +59,7 @@ Decode Way - C++ - 2018/09/15
 狀況-方法-日期
 
 數學符號引用沒顯示 - 改成html碼 - 2018/08/29
+
+新增DataBase練習 - 新增資料夾分類 - 2018/09/16
+
+不同資料夾分類 - ReadMe照舊不增加類別(依照語言即可區分) - 2018/09/16
