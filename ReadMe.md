@@ -52,6 +52,8 @@ Combine Two Tables - MySQL - 2018/09/16
 
 Nth Highest Salary - MySQL - 2018/09/16
 
+Nth Magical Number - C++ - 2018/09/18
+
 ## 未完成
 題目-語言-開始日期-狀態
 
