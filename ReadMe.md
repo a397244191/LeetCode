@@ -54,6 +54,8 @@ Nth Highest Salary - MySQL - 2018/09/16
 
 Nth Magical Number - C++ - 2018/09/18
 
+Add Digits - C++ - 2018/09/20
+
 ## 未完成
 題目-語言-開始日期-狀態
 
