@@ -56,6 +56,8 @@ Add Digits - C++ - 2018/09/20
 
 Create Maximum Number - C++ - 2018/09/21
 
+SwapAdjacentinLRString - C++ - 2018/09/23
+
 ## 未完成
 題目-語言-開始日期-狀態
 
