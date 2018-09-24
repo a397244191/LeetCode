@@ -60,6 +60,8 @@ Swap Adjacent in LR String - C++ - 2018/09/23
 
 Parse Lisp Expression - C++ - 2018/09/23
 
+Number of Atoms - C++ - 2018/09/24
+
 ## 未完成
 題目-語言-開始日期-狀態
 
