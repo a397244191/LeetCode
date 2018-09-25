@@ -62,6 +62,8 @@ Parse Lisp Expression - C++ - 2018/09/23
 
 Number of Atoms - C++ - 2018/09/24
 
+Longest Increasing Path in a Matrix - C++ - 2018/09/25
+
 ## 未完成
 題目-語言-開始日期-狀態
 
