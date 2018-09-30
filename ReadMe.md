@@ -72,6 +72,8 @@ K-th Smallest Prime Fraction - C++ - 2018/09/28
 
 Smallest Rotation with Highest Score - C++ - 2018/09/29
 
+Random Pick with Blacklist - C++ - 2018/09/30
+
 ## 未完成
 題目-語言-開始日期-狀態
 
