@@ -76,6 +76,8 @@ Random Pick with Blacklist - C++ - 2018/09/30
 
 Reach a Number - C++ - 2018/10/01
 
+Find And Replace in String - C++ - 2018/10/02
+
 ## 未完成
 題目-語言-開始日期-狀態
 
