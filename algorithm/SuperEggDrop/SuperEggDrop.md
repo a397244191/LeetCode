@@ -48,7 +48,7 @@ t = 0;
 大致上想法還是如同前一個想法，只是稍微提升了後半部的方式，整體大約會是<a href="https://www.codecogs.com/eqnedit.php?latex=O(KN\sqrt{NlogN})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(KN\sqrt{NlogN})" title="O(KN\sqrt{NlogN})" /></a>，至於為何開根號，是因為t跟N的關係是<a href="https://www.codecogs.com/eqnedit.php?latex=N&space;\le&space;\frac{t(t-1)}{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N&space;\le&space;\frac{t(t-1)}{2}" title="N \le \frac{t(t-1)}{2}" /></a>的緣故，不過結論似乎是我弄錯了，因為吃了TLE。
 
 ### 解析
-其實狀況似乎挺極限的，因為實際算下來大約是<a href="https://www.codecogs.com/eqnedit.php?latex=10^8" target="_blank"><img src="https://latex.codecogs.com/gif.latex?10^8" title="10^8" /></a>，然後實際t沒有如實下降那麼多，就大約在一些狀況會爆開吧。 ~~(後來認為是這樣，我以維剛好壓線的說)~~
+其實狀況似乎挺極限的，因為實際算下來大約是<a href="https://www.codecogs.com/eqnedit.php?latex=10^8" target="_blank"><img src="https://latex.codecogs.com/gif.latex?10^8" title="10^8" /></a>，然後實際t沒有如實下降那麼多，就大約在一些狀況會爆開吧。 ~~(後來認為是這樣，我以為剛好壓線的說)~~
 
 ### 反過來
 用now去找last不行，那能反過來嗎?因為這樣就變成<a href="https://www.codecogs.com/eqnedit.php?latex=O(K\sqrt{N})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(K\sqrt{N})" title="O(K\sqrt{N})" /></a>了(在認為<a href="https://www.codecogs.com/eqnedit.php?latex=t\approx\sqrt{N}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t\approx\sqrt{N}" title="t\approx\sqrt{N}" /></a>的情況下)。所已開始想了到底是什麼關係，最後發現結論是`DP[k][t] = DP[k-1][t-1] + DP[k][t-1] + 1`，這就要回到最初想法來看，從X切開，下部是0到X，上部是X~N，所以上下的數量合剛好等於N-1，既然如此，就找到t-1步時，下面的數量去加上上面的數量就好啦，而結論就是剛剛的等式。
@@ -62,7 +62,7 @@ t = 0;
 很棒的參考答案不一定都是難題，但只能說，難題常常會出現一些精美又意想不到的參考答案。
 
 ### binary search
-雖然這裡的DP最大直沒有做到完全遞增或遞減，但其實也是有規律的。當`DP[k][x]`的x上升，這裡的DP1值會上升，但相對的`DP[k][n-x+1]`會下降，且這裡的DP2值也會下降。而最終，我們真正找到的會是當DP1跟DP2最接近的時候(甚至相等)。所以一樣可以利用binary search的特性，當DP1過小時上升x，DP2過小時下降x，直到離開或是相等時，此時x就是我們的解。為了預防其實不只差1的狀況所以最後用<a href="https://www.codecogs.com/eqnedit.php?latex=DP[k][n]&space;=&space;min(max(DP[k-1][lo-1],DP[k][N&space;-&space;lo]),max(DP[k-1][hi-1],DP[k][N&space;-&space;hi]))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?DP[k][n]&space;=&space;min(max(DP[k-1][lo-1],DP[k][N&space;-&space;lo]),max(DP[k-1][hi-1],DP[k][N&space;-&space;hi]))" title="DP[k][n] = min(max(DP[k-1][lo-1],DP[k][N - lo]),max(DP[k-1][hi-1],DP[k][N - hi]))" /></a>來確保可以不會不小心找過頭。
+雖然這裡的DP最大值沒有做到完全遞增或遞減，但其實也是有規律的。當`DP[k][x]`的x上升，這裡的DP1值會上升，但相對的`DP[k][n-x+1]`會下降，且這裡的DP2值也會下降。而最終，我們真正找到的會是當DP1跟DP2最接近的時候(甚至相等)。所以一樣可以利用binary search的特性，當DP1過小時上升x，DP2過小時下降x，直到離開或是相等時，此時x就是我們的解。為了預防其實不只差1的狀況所以最後用<a href="https://www.codecogs.com/eqnedit.php?latex=DP[k][n]&space;=&space;min(DP_{lo.status},DP_{hi.status})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?DP[k][n]&space;=&space;min(DP_{lo.status},DP_{hi.status})" title="DP[k][n] = min(DP_{lo.status},DP_{hi.status})" /></a>來確保可以不會不小心找過頭。
 
 這裡初始的上限是N下限是1，所以每次DP都會花<a href="https://www.codecogs.com/eqnedit.php?latex=log(N)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?log(N)" title="log(N)" /></a>時間，總複雜度是<a href="https://www.codecogs.com/eqnedit.php?latex=O(KNlog(N))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(KNlog(N))" title="O(KNlog(N))" /></a>
 
