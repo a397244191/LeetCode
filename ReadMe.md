@@ -82,6 +82,8 @@ Backspace String Compare - C++ - 2018/10/05
 
 Super Egg Drop - C++ - 2018/10/06
 
+Chalkboard XOR Game - C++ - 2018/10/07
+
 ## 未完成
 題目-語言-開始日期-狀態
 
