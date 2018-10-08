@@ -84,6 +84,8 @@ Super Egg Drop - C++ - 2018/10/06
 
 Chalkboard XOR Game - C++ - 2018/10/07
 
+Race Car - C++ - 2018/10/08
+
 ## 未完成
 題目-語言-開始日期-狀態
 
