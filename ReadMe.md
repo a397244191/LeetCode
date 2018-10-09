@@ -86,6 +86,8 @@ Chalkboard XOR Game - C++ - 2018/10/07
 
 Race Car - C++ - 2018/10/08
 
+Online Stock Span - C++ - 2018/10/09
+
 ## 未完成
 題目-語言-開始日期-狀態
 
