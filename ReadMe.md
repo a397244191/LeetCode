@@ -90,6 +90,8 @@ Online Stock Span - C++ - 2018/10/09
 
 Decoded String at Index - C++ - 2018/10/10
 
+Sum of Subsequence Widths - C++ - 2018/10/13
+
 ## 未完成
 題目-語言-開始日期-狀態
 
