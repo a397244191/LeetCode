@@ -96,6 +96,8 @@ ZipZag Conversion - C++ - 2018/10/15
 
 Find Eventual Safe States - C++ - 2018/10/16
 
+Generate Parentheses - C++ - 2018/10/20
+
 ## 未完成
 題目-語言-開始日期-狀態
 
