@@ -112,6 +112,8 @@ Merge k Sorted Lists - C++ - 2018/11/06
 
 Reverse Nodes in k-Group - C++ - 2018/11/07
 
+Number of Digit One - C++ - 2018/11/10
+
 ## 未完成
 題目-語言-開始日期-狀態
 
