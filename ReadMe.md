@@ -124,6 +124,8 @@ Coin Change - C++ - 2018/11/13
 
 Minesweeper - C++ - 2018/11/18
 
+Remove Boxes - C++ - 2018/11/19
+
 ## 未完成
 題目-語言-開始日期-狀態
 
