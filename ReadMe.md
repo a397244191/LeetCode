@@ -128,6 +128,8 @@ Remove Boxes - C++ - 2018/11/19
 
 Valid Square - C++ - 2018/11/20
 
+Out of Boundary Paths - C++ - 2018/11/25
+
 ## 未完成
 題目-語言-開始日期-狀態
 
