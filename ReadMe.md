@@ -136,6 +136,8 @@ Max Area of Island - C++ - 2018/11/27
 
 Redundant Connection - C++ - 2018/12/01
 
+Split Array into Consecutive Subsequences - C++ - 2018/12/02
+
 ## 未完成
 題目-語言-開始日期-狀態
 
