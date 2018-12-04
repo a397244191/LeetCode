@@ -140,6 +140,8 @@ Split Array into Consecutive Subsequences - C++ - 2018/12/02
 
 Cut Off Trees for Golf Event - C++ -2018/12/03
 
+24 Game - C++ - 2018/12/04
+
 ## 未完成
 題目-語言-開始日期-狀態
 
