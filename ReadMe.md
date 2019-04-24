@@ -150,7 +150,9 @@ Reaching Points - C++ - 2018/12/19
 
 Find First and Last Position of Element in Sorted Array - C++ - 2018/04/16
 
-Largest Divisible Subset - C++ - 2018/4/22
+Largest Divisible Subset - C++ - 2018/04/22
+
+Elimination Game - C++ - 2018/04/24
 
 ## 未完成
 題目-語言-開始日期-狀態
